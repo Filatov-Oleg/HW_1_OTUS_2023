@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct HW_1_OTUS_2023App: App {
+    
+//    @StateObject private var productsViewModel = ProductsViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ProductsViewModel())
         }
     }
 }

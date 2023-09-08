@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4FF6422AAB416600F6121F /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FF6412AAB416600F6121F /* ActivityIndicatorView.swift */; };
+		1E581E6E2AA8BDFF005FA5B8 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E581E6D2AA8BDFF005FA5B8 /* FirstScreen.swift */; };
+		1E581E702AA8BE09005FA5B8 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E581E6F2AA8BE09005FA5B8 /* SecondScreen.swift */; };
+		1E581E722AA8BE14005FA5B8 /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E581E712AA8BE14005FA5B8 /* ThirdScreen.swift */; };
+		1E581E742AA8C3C8005FA5B8 /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E581E732AA8C3C8005FA5B8 /* ModalScreen.swift */; };
+		1E581E762AA8C7AC005FA5B8 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E581E752AA8C7AC005FA5B8 /* DetailScreen.swift */; };
+		1E581E792AA8CD6B005FA5B8 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E581E782AA8CD6B005FA5B8 /* ProductsViewModel.swift */; };
 		1E934B372AA5F16C00B340AA /* HW_1_OTUS_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E934B362AA5F16C00B340AA /* HW_1_OTUS_2023App.swift */; };
 		1E934B392AA5F16C00B340AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E934B382AA5F16C00B340AA /* ContentView.swift */; };
 		1E934B3B2AA5F16D00B340AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E934B3A2AA5F16D00B340AA /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E4FF6412AAB416600F6121F /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		1E581E6D2AA8BDFF005FA5B8 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		1E581E6F2AA8BE09005FA5B8 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		1E581E712AA8BE14005FA5B8 /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+		1E581E732AA8C3C8005FA5B8 /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		1E581E752AA8C7AC005FA5B8 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		1E581E782AA8CD6B005FA5B8 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 		1E934B332AA5F16C00B340AA /* HW_1_OTUS_2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_1_OTUS_2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E934B362AA5F16C00B340AA /* HW_1_OTUS_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_1_OTUS_2023App.swift; sourceTree = "<group>"; };
 		1E934B382AA5F16C00B340AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +46,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E4FF6402AAB414F00F6121F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E4FF6412AAB416600F6121F /* ActivityIndicatorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E581E6C2AA8BDEE005FA5B8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1E581E6D2AA8BDFF005FA5B8 /* FirstScreen.swift */,
+				1E581E6F2AA8BE09005FA5B8 /* SecondScreen.swift */,
+				1E581E712AA8BE14005FA5B8 /* ThirdScreen.swift */,
+				1E581E732AA8C3C8005FA5B8 /* ModalScreen.swift */,
+				1E581E752AA8C7AC005FA5B8 /* DetailScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1E581E772AA8CD4D005FA5B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1E581E782AA8CD6B005FA5B8 /* ProductsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		1E934B2A2AA5F16C00B340AA = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +93,9 @@
 		1E934B352AA5F16C00B340AA /* HW_1_OTUS_2023 */ = {
 			isa = PBXGroup;
 			children = (
+				1E4FF6402AAB414F00F6121F /* Views */,
+				1E581E772AA8CD4D005FA5B8 /* ViewModels */,
+				1E581E6C2AA8BDEE005FA5B8 /* Screens */,
 				1E934B362AA5F16C00B340AA /* HW_1_OTUS_2023App.swift */,
 				1E934B382AA5F16C00B340AA /* ContentView.swift */,
 				1E934B3A2AA5F16D00B340AA /* Assets.xcassets */,
@@ -138,7 +183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E934B392AA5F16C00B340AA /* ContentView.swift in Sources */,
+				1E581E702AA8BE09005FA5B8 /* SecondScreen.swift in Sources */,
+				1E581E792AA8CD6B005FA5B8 /* ProductsViewModel.swift in Sources */,
+				1E581E722AA8BE14005FA5B8 /* ThirdScreen.swift in Sources */,
+				1E581E742AA8C3C8005FA5B8 /* ModalScreen.swift in Sources */,
 				1E934B372AA5F16C00B340AA /* HW_1_OTUS_2023App.swift in Sources */,
+				1E4FF6422AAB416600F6121F /* ActivityIndicatorView.swift in Sources */,
+				1E581E762AA8C7AC005FA5B8 /* DetailScreen.swift in Sources */,
+				1E581E6E2AA8BDFF005FA5B8 /* FirstScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
